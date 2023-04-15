@@ -26,7 +26,8 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: curriculum_vitae_kapfhammer.tex
+          # root_file: curriculum_vitae_kapfhammer.tex
+          root_file: cv.obc.tex
       # Release a PDF of the CV
       - name: Release
         uses: softprops/action-gh-release@v1
