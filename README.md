@@ -2,7 +2,6 @@
 
 # curriculum-vitae
 
-
 This repository contains the curriculum vitae (CV) project of [Oliver Bonham-Carter](https://www.oliverbonhamcarter.com/). This project was both, inspired and stolen, from template code created by [Gregory M. Kapfhammer](https://www.gregorykapfhammer.com/) which used the following packages.
 
 * [moutonf/CV](https://github.com/moutonf/CV)
