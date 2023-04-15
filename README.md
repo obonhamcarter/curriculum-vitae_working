@@ -2,19 +2,12 @@
 
 # curriculum-vitae
 
-This repository contains the curriculum vitae (CV) of me, [Gregory M.
-Kapfhammer](https://www.gregorykapfhammer.com/). This repository uses
-[gkapfham/research-bibliography](https://github.com/gkapfham/research-bibliography)
-as a Git submodule to create several pages of the document in an automated
-fashion. Parts of this CV are inspired by the example provided at
-[moutonf/CV](https://github.com/moutonf/CV), which uses revised versions of the
-[moderncv](https://www.ctan.org/pkg/moderncv) and
-[moderntimeline](https://github.com/raphink/moderntimeline) packages. As this
-document is my own customized professional portfolio, I ask that, if you use it
-as inspiration or for reference, you suitably customize it for your own
-purposes. If you find this example useful, I would appreciate it if, in addition
-to starring the repository, you mention that you used my CV as a template when
-creating your document.
+
+This repository contains the curriculum vitae (CV) project of [Oliver Bonham-Carter](https://www.oliverbonhamcarter.com/). This project was both, inspired and stolen, from template code created by [Gregory M. Kapfhammer](https://www.gregorykapfhammer.com/) which used the following packages.
+
+* [moutonf/CV](https://github.com/moutonf/CV)
+* [moderncv](https://www.ctan.org/pkg/moderncv)
+* [moderntimeline](https://github.com/raphink/moderntimeline)
 
 ## Development Environment
 
@@ -44,10 +37,10 @@ cd bibliography
 git submodule init
 git submodule update
 cd ../
-pdflatex curriculum-vitae-kapfhammer.tex
-biber curriculum-vitae-kapfhammer.bcf
-pdflatex curriculum_vitae_kapfhammer.tex
-pdflatex curriculum_vitae_kapfhammer.tex
+pdflatex cv_obc.tex
+biber cv_obc.bcf
+pdflatex cv_obc.tex
+pdflatex cv_obc.tex
 ```
 
 Remember, before you compile the CV, make sure that you have the bibliography in
@@ -63,17 +56,17 @@ cd ../
 As a reminder, you can compile the CV using the following commands:
 
 ```shell
-pdflatex curriculum-vitae-kapfhammer.tex
-biber curriculum-vitae-kapfhammer.bcf
-pdflatex curriculum_vitae_kapfhammer.tex
-pdflatex curriculum_vitae_kapfhammer.tex
+pdflatex cv_obc.tex
+biber cv_obc.bcf
+pdflatex cv_obc.tex
+pdflatex cv_obc.tex
 ```
 
 Alternatively, once you have access to the `bibliography` submodule you can
 compile the CV using a single command:
 
 ```shell
-latexmk -pdf -pvc curriculum_vitae_kapfhammer.tex
+latexmk -pdf -pvc cv_obc.tex
 ```
 
 ## Releasing a New Version of the Curriculum Vitae
