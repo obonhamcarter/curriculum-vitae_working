@@ -88,7 +88,7 @@ defining the tags for the release of the curriculum vitae.
 Push all of the changes and the new tag to GitHub:
 
 ```shell
-git push -u origin master --tags
+git push -u origin main --tags
 ```
 
 New releases of the curriculum vitae are now available through the
